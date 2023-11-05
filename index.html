@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>No Limits</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div id="astronaut">
+          <img
+            src="./assets/main-section.png"
+            alt="desenho de um astronauta flutuando no espaço"
+          />
+        </div>
+
+        <div id="introducing">
+          <h1>Explore sem limites</h1>
+          <p>Porque o aprendizado é contínuo</p>
+
+          <a href="#info">
+            <img
+              id="arrow-down"
+              src="./assets/arrow-down.svg"
+              alt="imagem de uma seta apontando para baixo"
+            />
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section id="info">
+          <div class="card">
+            <img
+              src="./assets/planet-1.png"
+              alt="desenho de um planeta amarelo"
+            />
+            <div class="card-info">
+              <h1>Não pare nunca</h1>
+              <p>
+                Se você deseja ter sucesso nos estudos, é fundamental que você
+                adote uma mentalidade de "não pare nunca". Estudar de forma
+                consistente e contínua é a chave para o progresso e a conquista
+                de seus objetivos.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/planet-2.png" alt="desenho de um planeta azul" />
+            <div class="card-info">
+              <h1>Só volta</h1>
+              <p>
+                Se você parou ou perdeu o ritmo em alguma atividade ou projeto,
+                saiba que nunca é tarde para recomeçar. Às vezes, as
+                circunstâncias podem mudar, ou podemos nos sentir desmotivados
+                ou sobrecarregados.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/planet-3.png" alt="desenho de um planeta rosa" />
+            <div class="card-info">
+              <h1>Siga seu ritmo</h1>
+              <p>
+                Avançar pouco a pouco mantém progresso constante em objetivos,
+                evitando parar ou desistir. Mesmo pequenos passos nos aproximam
+                do destino e motivam a continuidade. Não subestime o poder de
+                cada ação rumo ao objetivo final.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="contact-wrapper">
+            <h1>Entre em contato</h1>
+            <form id="contact-form" method="POST">
+              <fieldset>
+                <div class="input-wrapper">
+                  <label for="name">Nome</label>
+                  <img src="./assets/person.svg" alt="icone de uma pessoa" />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Seu nome"
+                    minlength="8"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="input-wrapper">
+                  <label for="email">Email</label>
+                  <img src="./assets/email.svg" alt="icone de um @" />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    autocomplete="off"
+                  />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="message">Mensagem</label>
+                  <textarea
+                    minlength="10"
+                    name="message"
+                    id="text-message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </fieldset>
+            </form>
+
+            <button type="submit" form="contact-form">Enviar Mensagem</button>
+          </div>
+          <div class="contact-img">
+            <img src="./assets/bg-desktop.png" alt="imagem de estrelas rosas" />
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2023 - Rocketseat Explorer</p>
+      </footer>
+    </div>
+  </body>
+</html>
